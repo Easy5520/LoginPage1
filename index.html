@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>威海海洋环境预警报制作系统</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="htmleaf-container">
+		<h1 class="headline1">威海海洋环境预警报制作系统</h1>
+		<div id="wrapper">
+			<!-- <h1>欢迎使用</h1> -->
+			<div id="slider-wrap" class="boxcolor">
+				<ul id="slider">
+					<li>
+						<div>
+							<h1 class="h1-s">登录界面</h1>
+
+							<div class="content-info content-f11">用户名：
+								<input type=" text" id="username5" placeholder="&nbsp;"><span id="span01"></span>
+							</div>
+							<div class="content-info">密码：&emsp;
+								<input type="password" id="password5" placeholder="&nbsp;">
+							</div>
+							<div class="content-info">验证码：
+								<input type=" text" id="code5">
+								<span id="code" title="点击此处可更改验证码" onclick="changeImg()">验证码</span>
+							</div>
+
+							<button id="login" class="btnstyle" onmouseover="this.style.background='#FF8D00'"
+								onmouseout="this.style.background=''">登录</button>
+							<div class="btns" id="next">注册</div>
+						</div>
+					</li>
+
+					<li>
+						<div>
+							<h1 class="h1-s">注册界面</h1>
+
+							<div class="content-info2 content-f1">
+								用户名：&emsp;<input type="text" id="username" placeholder="&nbsp;">
+							</div>
+							<div class="content-info2">
+								电话：&emsp;&emsp;<input type="text" id="tel" placeholder="&nbsp;">
+							</div>
+							<div class="content-info2">
+								邮箱：&emsp;&emsp;<input type="text" id="mail" placeholder="&nbsp;">
+							</div>
+							<div class="content-info2">
+								密码：&emsp;&emsp;<input type="password" id="pwd1" placeholder="&nbsp;">
+							</div>
+							<div class="content-info2">
+								确认密码：<input type="password" id="pwd2" placeholder="&nbsp;">
+							</div>
+
+							<button id="regist" class="btnstyle btnstyle2" onmouseover="this.style.background='#FF8D00'"
+								onmouseout="this.style.background=''">注册</button>
+							<div class="btns" id="next2">返回</div>
+
+						</div>
+
+					</li>
+
+				</ul>
+
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/slide.js"></script>
+</body>
+
+</html>
